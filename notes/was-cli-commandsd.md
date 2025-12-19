@@ -5,7 +5,8 @@
 - Check AWS CLI version
   ```bash
   aws --version
-    aws configure
+bash
+  aws configure   
     aws s3 ls
     aws s3 cp myfile.txt s3://my-bucket/
     aws ec2 describe-instances --region us-east-1
